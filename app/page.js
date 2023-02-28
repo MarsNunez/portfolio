@@ -35,7 +35,7 @@ export default function Home() {
             <img src="/img/me.png" alt="personal image" className="" />
           </div>
           <div className="my-auto">
-            <h2 className="title text-3xl font-normal">
+            <h2 className="title text-xl sm:text-3xl font-normal">
               My passion and focus is Software development
             </h2>
             <p className="mt-6 font-light leading-7 mb-3">
@@ -62,7 +62,7 @@ export default function Home() {
       </section>
 
       {/* SECTION 04 */}
-      <section className="px-9 pt-1" id="portfolio">
+      <section className="px-9 mt-16 md:mt-0 md:pt-1" id="portfolio">
         <div className="max-w-4xl mx-auto md:my-28">
           <p className="uppercase text-sm tracking-widest text-green-500 font-medium">
             Latest Squarespace Projects
@@ -99,7 +99,7 @@ export default function Home() {
       </section>
 
       {/* SECTION 05 */}
-      <section className="px-8 pt-5 pb-10 md:pb-20" id="feed">
+      <section className="px-8 pt-16 md:pt-2 pb-10 md:pb-20" id="feed">
         <div className="md:my-28">
           <p className="uppercase text-center text-sm tracking-widest text-green-500 font-medium">
             My instagram feed

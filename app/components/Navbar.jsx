@@ -54,14 +54,54 @@ const Navbar = () => {
       {menu && (
         <div className="new-menu-height backdrop-blur-md fixed w-full top-0">
           <ul className=" flex flex-col items-center pt-5 text-xl uppercase font-medium tracking-widest gap-5">
-            <li className="hover-underline-animation">Plugins</li>
-            <li className="hover-underline-animation">Courses</li>
-            <li className="hover-underline-animation">Services</li>
-            <li className="hover-underline-animation">My Work</li>
-            <li className="hover-underline-animation">About</li>
-            <li className="hover-underline-animation">More</li>
-            <li className="hover-underline-animation">Contact</li>
-            <li className="text-5xl mt-5 hover-underline-animation">Login</li>
+            <a
+              className="hover-underline-animation"
+              href="#home"
+              onClick={() => setMenu(false)}
+            >
+              Home
+            </a>
+            <a
+              className="hover-underline-animation"
+              href="#about"
+              onClick={() => setMenu(false)}
+            >
+              About
+            </a>
+            <a
+              className="hover-underline-animation"
+              href="#services"
+              onClick={() => setMenu(false)}
+            >
+              Services
+            </a>
+            <a
+              className="hover-underline-animation"
+              href="#portfolio"
+              onClick={() => setMenu(false)}
+            >
+              Portfolio
+            </a>
+            <a
+              className="hover-underline-animation"
+              href="#feed"
+              onClick={() => setMenu(false)}
+            >
+              Feed
+            </a>
+            <a
+              className="hover-underline-animation"
+              href="#contact"
+              onClick={() => setMenu(false)}
+            >
+              Contact
+            </a>
+            <li
+              className="text-5xl mt-5 hover-underline-animation"
+              onClick={() => setMenu(false)}
+            >
+              Login
+            </li>
           </ul>
 
           {/* SOCIALS */}
