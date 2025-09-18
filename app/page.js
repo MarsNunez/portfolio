@@ -11,7 +11,7 @@ export default function Home() {
       <section className="menu-height flex items-center">
         <div className="h-fit mt-36 mx-auto px-10">
           <h1 className="title font-extralight leading-tight text-center text-4xl md:text-6xl">
-            Mars Nunez
+            Mars Nunezzz
           </h1>
           <h2 className="title text-center text-xl md:text-2xl md:mt-2">
             - Software Developer -
