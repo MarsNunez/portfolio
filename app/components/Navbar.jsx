@@ -38,9 +38,9 @@ const Navbar = () => {
             <a className="hover-underline-animation py-2" href="#portfolio">
               Portfolio
             </a>
-            <a className="hover-underline-animation py-2" href="#feed">
+            {/* <a className="hover-underline-animation py-2" href="#feed">
               Feed
-            </a>
+            </a> */}
             <a className="hover-underline-animation py-2" href="#contact">
               Contact
             </a>
@@ -48,7 +48,7 @@ const Navbar = () => {
         </div>
         <div className="text-3xl flex items-center justify-center">
           <p className="hidden">Login</p>
-          <i className="lni lni-cart cursor-pointer"></i>
+          <i className="lni lni-key"></i>
         </div>
       </nav>
       {menu && (
@@ -82,13 +82,13 @@ const Navbar = () => {
             >
               Portfolio
             </a>
-            <a
+            {/* <a
               className="hover-underline-animation"
               href="#feed"
               onClick={() => setMenu(false)}
             >
               Feed
-            </a>
+            </a> */}
             <a
               className="hover-underline-animation"
               href="#contact"
@@ -96,12 +96,12 @@ const Navbar = () => {
             >
               Contact
             </a>
-            <li
+            {/* <li
               className="text-5xl mt-5 hover-underline-animation"
               onClick={() => setMenu(false)}
             >
               Login
-            </li>
+            </li> */}
           </ul>
 
           {/* SOCIALS */}
