@@ -133,6 +133,7 @@ export default function Home() {
             Back to top
             <i className="lni lni-arrow-up ml-1 font-bold"></i>
           </a>
+          
         </div>
         <Link href={"/"} className="title flex items-center justify-center">
           <p className="hover-line-animation px-2 text-3xl py-12">MN</p>
